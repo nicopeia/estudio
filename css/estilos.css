@@ -1,0 +1,1309 @@
+*{
+
+  font-family: 'Open Sans', sans-serif;
+ }
+
+html{
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 1rem;
+
+  }
+
+
+/*menu de nav*/
+
+
+.navbar-toggler{
+   color: black;
+}
+
+.nav-link{
+
+    color: black;
+
+    font-size: 12px;
+
+
+
+
+}
+
+
+
+.nav-link:hover{
+color: #05A9F5;
+
+
+
+}
+.dropdown-item{
+    font-size:11px;
+
+
+}
+.dropdown-menu a:hover{
+  background: rgb(230, 220, 220);
+
+
+}
+
+.dropdown-menu  a:hover{
+
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+#logo{
+    height: 4rem;
+
+}
+
+.spanlogo{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px
+}
+
+
+
+#fotoSlider1{
+  background: url(../img/placa10.jpg) fixed no-repeat 50% 50%;
+  padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+
+  }
+
+/*}
+
+ .overlay{
+  padding-top:50px;
+  background:url("../img/10.png");
+min-height: 450px;
+
+}
+*/
+
+
+
+
+#fotoSlider{
+    background: url(../img/apreton.jpg) fixed no-repeat 50% 50%;
+    padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+
+
+
+
+}
+#fotoSlider2{
+  background: url(../img/images1.jpg) fixed no-repeat 50% 50%;
+  padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+
+
+
+}
+
+
+
+@media (min-width: 280px) {
+  .item {
+    margin-left: auto;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/* Carousel base class
+.carousel {
+  margin-bottom: 4rem;
+  } */
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    margin-bottom:3rem;
+    z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height:32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 325rem;
+  }
+
+  .titulo{
+      font-size: 9rem;
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: rgb(226, 226, 226);
+    font-family: 'Castoro', serif;
+    z-index: 10000px;
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+
+
+
+  }
+
+
+  @media (max-width: 540px) {
+    .titulo {
+      font-size: 6rem;
+
+
+    }
+
+  }
+
+
+  @media (min-width: 280px) {
+    .navbar {
+        background: linear-gradient(transparent,rgb(204, 200, 194));
+
+
+    }
+
+}
+@media (max-width: 280px) {
+  .item p {
+  display: none;
+
+  }
+ 
+#item1{
+  margin-left: 80px;
+ 
+}
+#item2{
+  margin-left: 50px;
+ 
+}
+#item3{
+  margin-left: 80px;
+ 
+}
+#fotoNosotros{
+  display: none;
+
+}
+.cardindustrias{
+ 
+ 
+  margin-top: 6px;
+}
+}
+
+
+#boton{
+    background:rgb(18, 18, 250);
+    transition: 0.5s;
+    border-style: double;
+
+
+}
+
+#news{
+    border-style: double;
+    color:black;
+    height: 32px;
+    width: 250px;
+   font-size: 15px;
+   justify-content: center;
+
+}
+
+#myCarousel p{
+    color:rgb(252, 251, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-weight:bold ;
+    font-size: 25px;
+    z-index: 10000px;
+    letter-spacing: 2px;
+
+
+}
+#botonp:hover{
+    background:rgb(60, 60, 241);
+    transition: 0.5s;
+    border-style: double;
+    border-color: white;
+}
+#icono{
+  font-size: 22px;
+
+
+}
+/* Featurettes
+-------------------------
+.line{
+
+    width: 66px;
+    height: 3px;
+    background-color: rgb(5, 4, 4);
+}
+*/
+
+
+
+
+.qsomos h1{
+  color: white;
+
+}
+
+
+
+
+.contenedor{
+  background-image: url("../img/fusion1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position:100%;
+
+
+}
+
+/* ---- stats.js ---- */
+.ul{
+  color: white;
+}
+
+.enfoque{
+  background-image: url("../img/fusion3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background: linear-gradient(rgba(150, 200, 194, 0.438));
+
+}
+
+
+
+footer{
+  height: 100%;
+}
+
+.novedades p{
+  color:rgb(59, 59, 255);
+
+}
+.novedades h5{
+  font-weight: bold;
+
+}
+.novedades small{
+  font-weight: bold;
+  color: black;
+
+}
+.novedades a:hover{
+background:rgb(241, 234, 234);
+color: black;
+}
+
+.modal-header{
+  background-image: url("../img/fondoazul.jpg") fixed no-repeat 50% 50%;
+  background-size: cover;
+
+}
+
+
+
+
+.enfoqueboton a{
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(transparent,rgba(150, 200, 194, 0.438));
+  padding: 14px 14px;
+  border-radius: 50%;
+  animation: animacion 1.6s linear infinite;
+  font-family:'calibri',sans-serif;
+  text-transform: uppercase;
+
+}
+.enfoqueboton a:hover{
+  color: white;
+
+}
+
+@keyframes animacion{
+  0%{
+      box-shadow: 0 0 0 0 rgba(29, 171, 209, .6), 0 0 0 0 rgba(29, 171, 209, .6);
+  }
+  30%{
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0), 0 0 0 0 rgba(29, 171, 209, 0);
+  }
+  65%{
+    box-shadow: 0 0 0 50px rgba(29, 171, 209, 0),  0 0 0 5px rgba(29, 171, 209, 0);
+  }
+  100%{
+    box-shadow: 0 0 0 0 rgba(29, 171, 209, 0), 0 0 0 5px rgba(29, 171, 209, 0);
+  }
+}
+
+
+#datos img{
+  height: 270px;
+ 
+
+
+}
+#datos span{
+  color: rgb(0, 0, 0);
+}
+#datos h4{
+  color: rgb(0, 0, 0);
+  font-size:36px;
+}
+#dato span{
+  color: rgb(0, 0, 0);
+}
+#dato h4{
+  color: rgb(0, 0, 0);
+  font-size:36px;
+}
+
+.subir {
+  position:fixed;
+  width:50px;
+  height:50px;
+  bottom:17px;
+  right:30px;
+  background-color:#5470FC;
+
+  color:#FFF;
+
+  text-align:center;
+  font-size:30px;
+  z-index:1000;
+  text-decoration: none;
+}
+.subir:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
+.contact{
+  max-width: 750px;
+
+  margin: 0px 0px 0px 4px ;
+  position: relative;
+
+
+  padding: 40px;
+}
+
+
+
+.contact .title{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  line-height: 48px;
+  color: black;
+
+
+
+}
+
+.contact-form .contact-field{
+  position:relative;
+
+
+
+}
+.contact-form .input-text{
+  display: block;
+  width: 90%;
+  height: 30px;
+ border-color:grey;
+
+  font-size: 12px;
+  line-height: 20px;
+
+}
+.contact-form textarea{
+  height: 198px;
+
+  border-color:grey;
+}
+
+/*
+#fondoform{
+  background-image: url("../img/Business\ Continuity\ &\ Recvery\ Services.jpg");
+  background-size: cover;
+  padding: 20px;
+}*/
+
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.client {
+height: 100px;
+
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background:none;
+  color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+  right: -30px;
+
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+ background-color: white;
+ border-radius: 70%;
+
+}
+
+
+
+
+@media screen and (min-width: 280px) {
+	#fotos {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+	}
+  .carousel__indicadores .glider-dot{
+    width: 16px;
+	height: 14px;
+  }
+  #fab{
+    align-items: center;
+    display: inline-block;
+
+
+  }
+
+}
+
+
+@media screen and (min-width: 280px) {
+	.contact .title{
+  font-size: 1rem;
+	}
+#cardServicio{
+  width: 50%;
+}
+
+}
+@media screen and (max-width: 280px) {
+
+#cardServicio{
+  width: 100vh;
+}
+
+}
+@media screen and (min-width: 1024px) {
+
+  #cardServicio{
+    width: 25%;
+  }
+
+  }
+#redes{
+  cursor: pointer;
+  font-size: 1.5rem;
+  letter-spacing: 1.5rem;
+}
+
+
+ .icono:hover{
+ color: blue;
+}
+
+
+.close{
+  color: white;
+  background:rgb(4, 4, 92);
+}
+.cerrar{
+  color: white;
+  background:rgb(4, 4, 92);
+}
+
+
+
+
+/* HEADER DE SERVICIOS */
+
+
+#impuestos{
+
+  background-image: url("../img/Roles-and-Responsibilities-of-a-Project-Manag-1068x552-1-696x360.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position:100%;
+
+
+}
+
+
+/*+
+.formu{
+
+  background-image: url("../img/2020.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position:100%;
+}*/
+.cuadro{
+  height: 200px;
+}
+#cardServicio:hover{
+  cursor: pointer;
+
+}
+#cardServicio .card:hover{
+
+  border-color: rgb(255, 0, 0);
+ border-style:solid;
+ border-width: 3px;
+ transition: 0.2s linear ;
+ animation: animatecard 0.8s linear;
+
+
+}
+
+
+@keyframes animatecard{
+  0%{
+
+   border-color: white;
+  }
+  20%{
+
+    border-color: rgb(221, 116, 116);
+   }
+  50%{
+    border-color: rgb(182, 75, 75);
+
+  }
+70%{
+  border-color: rgb(206, 67, 67);
+}
+80%{
+  border-color: rgb(206, 19, 19);
+}
+100%{
+
+border-color: rgb(255, 0, 0);
+  }
+}
+
+
+    #skill-sec h5 {
+font-weight: 800;
+color:rgb(255, 255, 255);
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 1.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+   #skill-sec {
+
+background: url("../img/combi1.png") no-repeat center center;
+
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+color:#fff;
+background-attachment: fixed;
+}
+     .overlay {
+        padding-top:50px;
+        background:url("../img/10.png");
+min-height: 270px;
+box-shadow: 0 0 0 0 rgba(29, 171, 209, .6), 0 0 0 0 rgba(29, 171, 209, .6);
+    }
+
+
+#home-sec {
+
+  background: url("../img/scott-graham-5fNmWej4tAA-unsplash.jpg") no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+height:300px
+
+}
+  #home-sec .overlay {
+      padding-top:100px;
+      background:rgba(0, 0, 0, 0.80);
+      min-height:300px
+
+  }
+
+  #home-secservicios {
+
+    background: url("../img/scott-graham-5fNmWej4tAA-unsplash.jpg") no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  color:#fff;
+
+
+  }
+    #home-secservicios .overlayservicios {
+        padding-top:100px;
+        background:rgba(0, 0, 0, 0.80);
+        min-height:590px;
+        background:url("../img/10.png");
+    }
+
+    #home-secseparador {
+
+      background: url("../img/roles.jpg") no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+
+
+    }
+      #home-secseparador .overlayseparador {
+          padding-top:100px;
+          background:rgba(0, 0, 0, 0.80);
+          min-height:290px;
+          background:url("../img/10.png");
+      }
+
+
+      #detallequienesSomos ul li span p{
+        color: white;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 0.6);
+        border: black;
+        font-size: 14px;
+        font-weight: bold;
+        z-index: 2000000;
+      }
+.overlayseparador{
+
+
+  background:url("../img/10.png");
+
+
+}
+
+.item{
+ margin: 1rem;
+ padding: 1rem;
+ float: left;
+
+ letter-spacing: 3px;
+ font-size:26px;
+
+
+}
+
+#item1{
+  background:rgba(28, 32, 240, 0.562);
+  border-radius: 60%;
+  border-color:rgb(245, 243, 252);
+  border-style: dashed;
+  width: 80px;
+
+}
+
+#item2{
+ letter-spacing: 3px;
+  width: 50%;
+  height: 90%;
+  font-size:14px;
+  padding: 5px;
+
+}
+@media screen and (max-width: 320px) {
+
+#item2{
+  text-align: right;
+
+  }
+
+  }
+
+
+#item3{
+
+  background:rgba(28, 32, 240, 0.562);
+  border-radius: 60%;
+  border-color:rgb(15, 39, 255);
+  border-style: dashed;
+  width: 80px;
+}
+
+.servicios{
+  background:url("../img/bn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+
+}
+
+
+.overlayServicios {
+  padding-top:30px;
+  background:url("../img/10.png");
+min-height: 270px;
+box-shadow: 0 0 0 0 rgba(29, 171, 209, .6), 0 0 0 0 rgba(29, 171, 209, .6);
+padding: 20px;
+}
+
+/* NOVEDADES CARD */
+.card-header {
+font-family: 'Open Sans', sans-serif;
+}
+.card-body p{
+color: black;
+font-family: italic;
+}
+
+.card-body h5{
+font-family: 'Open Sans', sans-serif;
+}
+
+#novedades{
+
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+
+}
+
+#cardNov{
+  border-style: none;
+}
+
+#fondoForm{
+  background:url("../img/torresbyn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+
+
+.contact{
+  padding-top:30px;
+  background:url("../img/10.png");
+min-height: 270px;
+box-shadow: 0 0 0 0 rgba(29, 171, 209, .6), 0 0 0 0 rgba(29, 171, 209, .6);
+
+}
+
+.titulonos{
+  font-size: 42px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#logoInd{
+  height: 4rem;
+
+}
+
+
+
+#fondoForm .overlaycontacto {
+  padding:20px;
+  background:rgba(0, 0, 0, 0.80);
+
+  background:url("../img/10.png");
+}
+
+
+#fondoForm .form-group{
+
+  padding: 5px;
+
+}
+#fondoForm .form-group input{
+
+  width: 80%;
+  background-color:rgba(117, 114, 114, 0.479);
+  border-style: solid;
+
+}
+
+#fondoForm .form-group textarea{
+  background-color:rgba(117, 114, 114, 0.479);
+  width: 80%;
+  height: 150px;
+
+}
+
+#fondoForm .form-group input::placeholder{
+
+ color:white;
+
+}
+#fondoForm .form-group textarea::placeholder{
+
+  color:white;
+
+ }
+
+
+ #infocontacto {
+   color: white;
+   height: 40px;
+   font-weight: bold;
+   letter-spacing: 2px;
+    box-shadow: 3px 3px 3px 0 rgba(1, 0, 0, 0.6);
+    border-color: black;
+ }
+
+
+
+
+ #fondoServicios{
+   background:url("../img/torresbyn.jpg") no-repeat center center;
+
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+ }
+
+.overlayserv {
+
+  padding:20px;
+  background:rgba(0, 0, 0, 0.80);
+ height: 500px;
+  background:url("../img/10.png");
+ }
+
+.contenidoserv{
+  letter-spacing: 2px;
+  font-weight:lighter;
+  margin-top: 150px;
+  font-style: normal;
+  border-width: medium;
+  border-color: black;
+
+}
+
+.puntosInfo{
+  padding: 10px;
+}
+
+.puntosInfo ul li{
+  padding: 5px;
+}
+
+
+/* quienes somos page*/
+
+
+
+
+#fondoServiciosQs{
+  background:url("../img/estudiobyn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservQs {
+
+ padding:20px;
+ background:rgba(0, 0, 0, 0.80);
+height: 600px;
+
+}
+
+.contenidoserv{
+ letter-spacing: 1px;
+ font-weight:lighter;
+ margin-top: 150px;
+ font-style: normal;
+ border-width: medium;
+ border-color: black;
+
+}
+
+.puntosInfo{
+ padding: 10px;
+}
+
+.puntosInfo ul li{
+ padding: 5px;
+}
+
+#separador {
+
+  background: url("../img/banner.jpg") no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+
+
+}
+
+.plantilla ul li{
+list-style: none;
+}
+
+/* industrias page*/
+
+
+
+#fondoServiciosi{
+  background:url("../img/maderobyn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservi {
+
+ padding:20px;
+ background:rgba(0, 0, 0, 0.80);
+height: 600px;
+
+}
+
+/*auditoria page*/
+
+
+
+#fondoServiciosau{
+  background:url("../img/bn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservau {
+
+ padding:20px;
+ background:rgba(0, 0, 0, 0.80);
+height: 600px;
+ 
+}
+
+
+/*impuestos page*/
+
+
+
+#fondoServimp{
+  background:url("../img/torresbyn.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservimp {
+
+ padding:20px;
+ background:rgba(0, 0, 0, 0.80);
+height: 600px;
+ 
+}
+
+/*OUTSOURCING page*/
+
+
+
+#fondoServout{
+  background:url("../img/outsourcing.jpg") no-repeat center center;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservout {
+
+ padding:20px;
+ background:rgba(0, 0, 0, 0.80);
+height: 500px;
+ /*background:url("../img/10.png");*/
+}
+
+
+/*PYMES page*/
+
+
+
+#fondoServPy{
+  background:url("../img/pymes.jpg") fixed no-repeat 10% 90%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservPy {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 600px;
+
+}
+/*SERVICIOS page*/
+
+
+
+#fondoServiciosGeneral{
+  background:url("../img/bn.jpg") fixed no-repeat 50% 50%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayserviciosGeneral {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 600px;
+
+}
+
+/*previsional page*/
+
+
+
+#fondoServprev{
+  background:url("../img/previsional.jpg") fixed no-repeat 50% 50%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservprev {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 600px;
+
+}
+/*laboral page*/
+
+
+
+#fondoServlab{
+  background:url("../img/laboral.png") fixed no-repeat 50% 50%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservlab {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 600px;
+
+}
+
+/*otros servicios page*/
+
+
+
+#fondoServotro{
+  background:url("../img/otroservicios.jpg") fixed no-repeat 50% 50%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlayservotro {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 500px;
+
+}
+
+
+/*PANEL page*/
+
+
+
+#fondopanel{
+  background:url("../img/otroservicios.jpg") fixed no-repeat 50% 50%;
+
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: 0 0 0 0 rgba(1, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 1.6);
+}
+
+.overlaypanel {
+
+ padding:20px;
+ background:rgba(1, 1, 0.80, 0.80);
+height: 400px;
+
+}
+
+
+
+
+.main-section{
+  margin:0 auto;
+  margin-top:25%;
+  padding: 0;
+}
+
+.modal-content{
+  background-color: #3b4652;
+  
+  padding: 0 20px;
+  box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+  margin-top: -50px;
+  margin-bottom: 35px;
+}
+
+.user-img img{
+  width: 100xp;
+  height: 100px;
+  box-shadow: 0px 0px 3px #848484;
+  border-radius: 50%;
+}
+
+.log {
+  height: 42px;
+  font-size: 18px;
+  border:0;
+  padding-left: 54px;
+  border-radius: 5px;
+}
+
+.form-group::before{
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  left: 28px;
+  font-size: 22px;
+  padding-top:4px;
+}
+
+.form-group#user-group::before{
+  content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+  content: "\f023";
+}
+
+ .login{
+  width: 60%;
+  margin: 5px 0 25px;
+}
+
+.forgot{
+  padding: 5px 0;
+}
+
+.forgot a{
+  color: white;
+}
+
+
+
+
+ td{
+  font-size:12px;
+}
